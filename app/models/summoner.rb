@@ -3,7 +3,7 @@ class Summoner < ActiveRecord::Base
 
 	has_many :bids
 
-	scope :search, -> (query){  where("name like ?", "%#{query}%")}
+	# scope :search, -> (query){ where("name like ?", "#{query}")}
 
 	before_save :get_summoner_object
 
@@ -16,7 +16,10 @@ class Summoner < ActiveRecord::Base
 		new_bid.save
 
 	end
-
+	def self.search(query)
+		# Note: unable to use scope because they always return ActiveRecord Relations even when nil. 
+		self.where("name like ?", "#{query}")
+	end
 	def get_summoner_object
 		
 		endpoint = "https://na.api.pvp.net/api/lol/na/v1.4/summoner/by-name/#{name}?api_key=#{API_KEY}"
