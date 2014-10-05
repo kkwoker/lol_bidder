@@ -1,23 +1,21 @@
 lol_bidder
 ==========
 
-BASICS
-===========
+# BASICS #
+
 Users are able to view recent matches
 Users are able to view on going matches
 Users are able to view live matches through embedded Twitch video
 Users log in with their 
 
 	
-	MATCH DETAILS
-	===============
-	Username    Champion      Current_Season_Ranking     Wins       KDA     Runes   Masteries
+# MATCH DETAILS #
 
-	Banned_Champions
+Username    Champion      Current_Season_Ranking     Wins       KDA     Runes   Masteries
 
-	TWITCH EMBEDDED VIDEO
-	======================
+Banned_Champions
 
+# TWITCH EMBEDDED VIDEO #
 
 
 
@@ -26,22 +24,23 @@ Users log in with their
 
 
 
-STRETCHES
-===========
-	KIIP rewards
-
-	CHAT SECTION   ->   mad-chatter gem
-	===============
 
 
+# STRETCHES #
 
+KIIP rewards ?
+
+CHAT SECTION   ->   mad-chatter gem
 
 
 
 
 
-CONCEPTS
-=========
+
+
+
+ # CONCEPTS #
+
 STREAMERS CAN POST THEIR BIDDING_URL (OUR SITE) ON THEIR TWITCH STREAMS AND PEOPLE WOULD BE ABLE TO TO GO THERE AND BID
 USERS KEEP POINTS AND BID ON GAMES. IF THEY WIN, THEY GET POINTS CALCULATED TO THE AMOUNT OF BIDDERS ON THAT SIDE (READ UP ON BIDDING STRATEGIES)
 USER PROFILES TO SEE THEIR POINTS. VIEW THE TOP BIDDER.
@@ -55,8 +54,8 @@ COMPETITIVE ESPORTS BIDDING
 
 
 
-TECHNOLOGIES USED
-=================
+# TECHNOLOGIES USED #
+
 LEAGUE API
 TWITCH API
 ----RAILS 
