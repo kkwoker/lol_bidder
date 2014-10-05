@@ -1,0 +1,203 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="2039" measuredH="981" mockupW="2018" mockupH="966">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="21" y="15" w="800" h="966" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0A/match/%3Aid</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::SiteMap" x="1274" y="40" w="-1" h="-1" measuredW="765" measuredH="670" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Home%0A-%20Live%20Matches%0A--%20Match%201%0A--%20Match%202%0A-%20Search%20Summoner%0A--%20Summoner1%0A---Summoner1%20Profile%0A----Summoner%27s%20Recent%20Matches%0A-----Old%20Match%20details%0A-%20MyProfile%0A-%20Library%20of%20static%20information.%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::VideoPlayer" x="189" y="371" w="-1" h="-1" measuredW="300" measuredH="200" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="542" y="305" w="200" h="274" measuredW="200" measuredH="100" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <position>right</position>
+        <text>Chat%20Tab</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Canvas" x="91" y="98" w="660" h="830" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16370588</color>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="200" y="347" w="127" h="-1" measuredW="117" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Current%20Pool%20%3A%203024</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="399" y="348" w="90" h="-1" measuredW="67" measuredH="18" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <size>10</size>
+        <text>2%3A30%20left%20to%20bid</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Button" x="626" y="603" w="-1" h="-1" measuredW="40" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Bid</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::NumericStepper" x="517" y="604" w="-1" h="-1" measuredW="41" measuredH="24" zOrder="8" locked="false" isInGroup="-1"/>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::ComboBox" x="558" y="603" w="60" h="-1" measuredW="34" measuredH="62" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20%0APurple%0ABlue</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::RoundButton" x="21" y="98" w="141" h="853" measuredW="32" measuredH="32" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <color>13421772</color>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Label" x="27" y="140" w="94" h="-1" measuredW="74" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20%20%20%20Gold%3A%20204</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Canvas" x="36" y="221" w="113" h="211" measuredW="100" measuredH="70" zOrder="12" locked="false" isInGroup="-1"/>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Label" x="44" y="221" w="94" h="-1" measuredW="70" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>13</size>
+        <text>Summoners</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Label" x="36" y="119" w="113" h="-1" measuredW="98" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>HERPoftheDERP</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Label" x="44" y="263" w="102" h="-1" measuredW="103" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>PinkTurboRanger</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Label" x="45" y="284" w="94" h="-1" measuredW="65" measuredH="21" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>kirbyslayer</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::RoundButton" x="44" y="245" w="81" h="18" measuredW="32" measuredH="32" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <color>13421772</color>
+        <shape>rectangle</shape>
+        <size>13</size>
+        <text>Eufonious</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::RoundButton" x="189" y="161" w="252" h="108" measuredW="32" measuredH="32" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <color>15658734</color>
+        <shape>rectangle</shape>
+        <size>11</size>
+        <text>Eufonious%0Asummoner2%0Asummoner3%0Asummoner4%0Asummoner5</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::RoundButton" x="464" y="161" w="234" h="108" measuredW="32" measuredH="32" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <color>15658734</color>
+        <shape>rectangle</shape>
+        <size>11</size>
+        <text>summoner6%0Asummoner7%0Asummoner8%0Asummoner9%0Asummoner10</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="200" y="161" w="-1" h="-1" measuredW="75" measuredH="21" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Purple%20Team</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Label" x="474" y="161" w="-1" h="-1" measuredW="62" measuredH="21" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Blue%20Team</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Icon" x="267" y="179" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Icon" x="267" y="191" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Icon" x="267" y="204" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::Icon" x="267" y="218" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Icon" x="267" y="232" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Icon" x="542" y="181" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Icon" x="542" y="193" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Icon" x="542" y="206" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Icon" x="542" y="220" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Icon" x="542" y="234" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Button" x="44" y="464" w="-1" h="-1" measuredW="100" measuredH="27" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Live%20Matches</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::SearchBox" x="36" y="187" w="-1" h="-1" measuredW="120" measuredH="25" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>search</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::TextArea" x="1003" y="332" w="200" h="206" measuredW="200" measuredH="140" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>if%20match.live%3F%0A%20%20%20%20render%20live%20details%20%28video%2C%20chat%2C%20etc%29%0Aelse%0A%20%20%20%20render%20match%20stats%20%28who%20won%2C%20pool%2C%20old%20chat%2C%20etc%29%0Aend</text>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Arrow" x="1191" y="302" w="108" h="49" measuredW="150" measuredH="100" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>bottom</direction>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::TextArea" x="1736" y="382" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>if%20summoner.ingame%3F%0A%20%20%20show%20profile%0A%20%20%20show%20link%20to%20match%0Aelse%0A%20%20%20show%20profile%0Aend</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Arrow" x="1656" y="332" w="97" h="50" measuredW="150" measuredH="100" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
