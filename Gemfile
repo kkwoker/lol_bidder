@@ -38,4 +38,7 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'pry'
+gem 'pry', group: [:development, :test]
+
+gem 'json'
+gem 'unirest'

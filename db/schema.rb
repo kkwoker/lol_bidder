@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141004212513) do
+ActiveRecord::Schema.define(version: 20141005053703) do
 
   create_table "bids", force: true do |t|
     t.float    "wager"
@@ -34,6 +34,8 @@ ActiveRecord::Schema.define(version: 20141004212513) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "profileIconId"
+    t.integer  "summonerLevel"
   end
 
 end
