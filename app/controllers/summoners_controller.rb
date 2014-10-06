@@ -7,7 +7,6 @@ class SummonersController < ApplicationController
 		if !@summoner
 			s = Summoner.find_or_initialize_by(name: params[:name])
 			if s.save
-
 				@summoner = s
 			end
 		end

@@ -1,8 +1,14 @@
 Welcome to lol_bidder
 
 <%= form_tag summoners_path, method: "get" do %>
-<!-- (movies_path, :method => "get", id: "search-form") do %> -->
 	<%= text_field_tag "name" %>
 	<%= submit_tag "Search" %>
 
 <% end %>
+
+<% @summoners.each do |summoner| %>
+	<%= summoner.name %>
+	<br>
+<% end %>
+
+
