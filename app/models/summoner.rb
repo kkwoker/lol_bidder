@@ -21,10 +21,16 @@ class Summoner < ActiveRecord::Base
 	end
 
 	def in_game?
-		live_game = Unirest.get "https://community-league-of-legends.p.mashape.com/api/v1.0/NA/summoner/retrieveInProgressSpectatorGameInfo/#{name_without_spaces(name)}", headers:{ :X_Mashape_Key => "#{MASHAPE_KEY}"}
-		if live_game.body["error"]
+		response = Unirest.get "https://community-league-of-legends.p.mashape.com/api/v1.0/NA/summoner/retrieveInProgressSpectatorGameInfo/#{name_without_spaces(name)}", headers:{ :X_Mashape_Key => "#{MASHAPE_KEY}"}
+		if response.body["error"]
 			return false
 		else
+			# Create match details
+			champion_id = response.body["game"]["playerChampionSelections"]["array"].select{|s| s["summonerInternalName"]== "#{name_without_spaces(name).downcase}"}[0]["championId"]
+			players = response.body["game"]["playerChampionSelections"]["array"].map{|p| p["summonerInternalName"]}
+			teamOne = response.body["game"]["teamOne"]["array"].map{|s| s["summonerName"]}
+			teamTwo = response.body["game"]["teamTwo"]["array"].map{|s| s["summonerName"]}
+			# binding.pry
 			return true
 		end
 	end
@@ -39,14 +45,19 @@ class Summoner < ActiveRecord::Base
 		uri = URI(endpoint)
 		begin
 			string = Net::HTTP.get(uri)
-			object = JSON.parse(string)
-			self.id = object[name_without_spaces(name).downcase]["id"]
-			self.profileIconId = object[name_without_spaces(name).downcase]["profileIconId"]
-			self.summonerLevel = object[name_without_spaces(name).downcase]["summonerLevel"]
+			summoner_object = JSON.parse(string)
+			update_summoner(self, summoner_object)
 		rescue 
 			puts "Summoner does not exist or something in the API went wrong"
 			return false
 		end
+	end
+
+	def update_summoner(summoner, object)
+		summoner.id = object[name_without_spaces(name).downcase]["id"]
+		summoner.profileIconId = object[name_without_spaces(name).downcase]["profileIconId"]
+		summoner.summonerLevel = object[name_without_spaces(name).downcase]["summonerLevel"]
+		summoner.name = object[name_without_spaces(name).downcase]["name"]
 	end
 
 	def name_without_spaces(name)

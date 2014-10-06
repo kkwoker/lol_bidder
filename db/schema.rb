@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141005053703) do
+ActiveRecord::Schema.define(version: 20141006053750) do
 
   create_table "bids", force: true do |t|
     t.float    "wager"
@@ -28,6 +28,12 @@ ActiveRecord::Schema.define(version: 20141005053703) do
     t.float    "blue_pool",   default: 0.0
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "winner"
+  end
+
+  create_table "matches_summoners", force: true do |t|
+    t.integer "match_id"
+    t.integer "summoner_id"
   end
 
   create_table "summoners", force: true do |t|

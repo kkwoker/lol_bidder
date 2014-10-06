@@ -8,11 +8,11 @@ class SummonersController < ApplicationController
 			s = Summoner.find_or_initialize_by(name: params[:name])
 			if s.save
 				@summoner = s
+			else
+				@no_summoner_found = true
 			end
 		end
 
-		# Ask the mashape API if the summoner is in game or not
-		# @summoner.in_game?
 
 	end	
 end
