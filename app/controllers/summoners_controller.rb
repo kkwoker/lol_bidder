@@ -11,5 +11,8 @@ class SummonersController < ApplicationController
 			end
 		end
 
+		# Ask the mashape API if the summoner is in game or not
+		# @summoner.in_game?
+
 	end	
 end
