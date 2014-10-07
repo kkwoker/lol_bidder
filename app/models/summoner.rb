@@ -1,6 +1,8 @@
 class Summoner < ActiveRecord::Base
-	API_KEY = ENV["MYAPP_LEAGUE_OF_LEGENDS_API_KEY"]
-	MASHAPE_KEY = ENV["MYAPP_LOL_MASHAPE_API_KEY"]
+	API_KEY = Rails.application.secrets.MYAPP_LEAGUE_OF_LEGENDS_API_KEY
+	MASHAPE_KEY = Rails.application.secrets.MYAPP_LOL_MASHAPE_API_KEY
+	# API_KEY = ENV["MYAPP_LEAGUE_OF_LEGENDS_API_KEY"]
+	# MASHAPE_KEY = ENV["MYAPP_LOL_MASHAPE_API_KEY"]
 	has_many :bids
 
 	before_save :get_summoner_object
