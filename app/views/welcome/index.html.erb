@@ -7,6 +7,8 @@ Welcome to lol_bidder
 <% end %>
 
 <% @summoners.each do |summoner| %>
-	<%= summoner.name %>
-	<br>
+	<span class="summoner-names">
+		<%= summoner.name %>
+		<br>
+	</span>
 <% end %>
