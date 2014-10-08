@@ -14,3 +14,9 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(function(){
+	$(".summoner-names").hover(function(){
+		$(this).css("background-color: Black");
+	})
+});

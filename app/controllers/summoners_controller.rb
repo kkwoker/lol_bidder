@@ -1,5 +1,7 @@
 class SummonersController < ApplicationController
 
+	before_action :get_all_summoners
+
 	def show
 		# #search is a scope
 		@summoner = Summoner.search(params[:name])[0]
@@ -12,7 +14,11 @@ class SummonersController < ApplicationController
 				@no_summoner_found = true
 			end
 		end
-
-
 	end	
+
+	private
+
+	def get_all_summoners
+		@summoners = Summoner.all
+	end
 end

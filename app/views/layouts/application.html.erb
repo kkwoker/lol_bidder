@@ -17,6 +17,7 @@
 <% flash.each do |name, msg| -%>
     <%= content_tag :div, msg, class: name %>
   <% end -%>
+<%= render 'layouts/nav' %>
 <%= yield %>
 
 <!-- jQuery Plugin -->
@@ -27,8 +28,8 @@
 	//<![CDATA[
 		$(window).load(function() { // makes sure the whole site is loaded
 			$('#status').fadeOut(); // will first fade out the loading animation
-			$('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-			$('body').delay(10).css({'overflow':'visible'});
+			$('#preloader').delay(3).fadeOut('slow'); // will fade out the white DIV that covers the website.
+			$('body').delay(1).css({'overflow':'visible'});
 		})
 	//]]>
 </script>
