@@ -1,63 +1,28 @@
-lol_bidder
-==========
+== README
 
-# BASICS #
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-Users are able to view recent matches
-Users are able to view on going matches
-Users are able to view live matches through embedded Twitch video
-Users log in with their 
+Things you may want to cover:
 
-	
-# MATCH DETAILS #
+* Ruby version
 
-Username    Champion      Current_Season_Ranking     Wins       KDA     Runes   Masteries
+* System dependencies
 
-Banned_Champions
+* Configuration
 
-# TWITCH EMBEDDED VIDEO #
+* Database creation
 
+* Database initialization
 
+* How to run the test suite
 
+* Services (job queues, cache servers, search engines, etc.)
 
+* Deployment instructions
 
-
-
-
+* ...
 
 
-# STRETCHES #
-
-KIIP rewards ?
-
-CHAT SECTION   ->   mad-chatter gem
-
-
-
-
-
-
-
-
- # CONCEPTS #
-
-STREAMERS CAN POST THEIR BIDDING_URL (OUR SITE) ON THEIR TWITCH STREAMS AND PEOPLE WOULD BE ABLE TO TO GO THERE AND BID
-USERS KEEP POINTS AND BID ON GAMES. IF THEY WIN, THEY GET POINTS CALCULATED TO THE AMOUNT OF BIDDERS ON THAT SIDE (READ UP ON BIDDING STRATEGIES)
-USER PROFILES TO SEE THEIR POINTS. VIEW THE TOP BIDDER.
-COMPETITIVE ESPORTS BIDDING
-?DOES NOT HAVE TO BE JUST FOR LEAGUE OF LEGENDS. JUST A TWITCH/BIDDING SYSTEM FOR STREAMING. BUT HOW DO YOU KNOW WHO WON?... -> LEAGUEAPI
-
-
-
-
-
-
-
-
-# TECHNOLOGIES USED #
-
-LEAGUE API
-TWITCH API
-----RAILS 
-
-
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
